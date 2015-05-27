@@ -30,7 +30,7 @@ from setuptools import setup
 setup(
     name='dj-nodb',
     packages=['dj-nodb'],
-    version='0.0.1',
+    version='0.0.2',
     description='custom django testrunner',
     url='https://github.com/weeksghost/dj-nodb',
     download_url='https://github.com/weeksghost/dj-nodb/tarball/0.0.1',
