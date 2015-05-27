@@ -6,7 +6,7 @@ Custom django testrunner that eliminates test database creation when running tes
 Installation
 ------------
 
-* pip install dj-nodb
+* pip install djnodb
 
 This will place the custom testrunner (runner.py) at the root of your project. Alternatively you can move it to any part of your application you desire.
 
