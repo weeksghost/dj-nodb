@@ -28,8 +28,8 @@ from setuptools import setup
 
 
 setup(
-    name='dj-nodb',
-    packages=['dj-nodb'],
+    name='djnodb',
+    packages=['djnodb'],
     version='0.0.2',
     description='custom django testrunner',
     url='https://github.com/weeksghost/dj-nodb',
