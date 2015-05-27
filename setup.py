@@ -33,7 +33,7 @@ setup(
     version='0.0.2',
     description='custom django testrunner',
     url='https://github.com/weeksghost/dj-nodb',
-    download_url='https://github.com/weeksghost/dj-nodb/tarball/0.0.3',
+    download_url='https://github.com/weeksghost/dj-nodb/tarball/0.0.4',
     author='Erik Marty',
     author_email='erikomarty@yahoo.com',
     license='Apache',
