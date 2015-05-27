@@ -15,6 +15,4 @@ Usage (default)
 
 Override django's default testrunner by adding the following to your settings
 
-``TEST_RUNNER = ''``
-or
-``TEST_RUNNER = ''``
+``TEST_RUNNER = 'djnodb.runner.NoDbTestRunner'``

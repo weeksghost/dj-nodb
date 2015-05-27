@@ -5,23 +5,19 @@ dj-nodb
 
 Custom django testrunner that eliminates test database creation when running tests.
 
-###Installation
+Installation
+------------
 
 * pip install dj-nodb
 
 This will place the custom testrunner (runner.py) at the root of your project. Alternatively you can move it to any part of your application you desire.
 
-###Usage (default)
+Usage (default)
+---------------
 
 Override django's default testrunner by adding the following to your settings
 
-```python
-TEST_RUNNER = 'runner.NoDbTestRunner'
-```
-or
-```python
-TEST_RUNNER = '<your_app>.runner.NoDbTestRunner'
-```
+``TEST_RUNNER = 'djnodb.runner.NoDbTestRunner'``
 """
 
 from setuptools import setup
@@ -30,7 +26,7 @@ from setuptools import setup
 setup(
     name='djnodb',
     packages=['djnodb'],
-    version='0.0.2',
+    version='0.0.4',
     description='custom django testrunner',
     url='https://github.com/weeksghost/dj-nodb',
     download_url='https://github.com/weeksghost/dj-nodb/tarball/0.0.4',
